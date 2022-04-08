@@ -1,0 +1,247 @@
+{
+  "app": {
+    "root": "CadiTrack",
+    "paths": {
+      "index": {
+        "root": "Home"
+      },
+      "home": {
+        "root": "Home"
+      }
+    }
+  },
+
+  "navigation": {
+    "routes": {
+      "home": {
+        "name": "Maison"
+      },
+
+      "how_it_works": {
+        "name": "Comment ça fonctionne"
+      },
+
+      "our_story": {
+        "name": "Notre histoire"
+      },
+
+      "testimonials": {
+        "name": "Témoignages"
+      },
+
+      "contact_us": {
+        "name": "Nous contacter"
+      },
+
+      "use_cases": {
+        "name": "Cas d'utilisation"
+      },
+
+      "privacy": {
+        "name": "Privée"
+      },
+
+      "terms": {
+        "name": "Termes"
+      },
+
+      "license": {
+        "name": "Licence"
+      },
+
+      "pricing": {
+        "name": "Tarification"
+      },
+
+      "login": {
+        "name": "Login"
+      }
+    }
+  },
+
+  "testimonials": {
+    "gathering_place": {
+      "ben_1": "CadiTrack nous a permis de nous développer et d'assurer la conformité aux exigences de traçabilité de plus en plus strictes que les épiceries et les fabricants exigent.",
+      "ben_2": "CadiTrack est intuitif et très facile à utiliser. Notre personnel avait besoin d'une formation minimale et était rapidement opérationnel et travaillait plus efficacement.",
+      "lovena_1": "CadiTrack est parfait pour les petites et moyennes entreprises et a été si facile à mettre en œuvre et à démarrer. CadiTrack a changé la donne pour notre entreprise !",
+      "lovena_2": "Nous sommes bien assurés que nous avons une traçabilité complète et précise et que nous respectons tous les niveaux de normes de sécurité alimentaire."
+    }
+  },
+
+  "how_it_works": {
+    "heading1": "CadiTrack rationalise votre traitement avec un flux de travail intuitif",
+
+    "pages": {
+      "bullets": {
+        "bullet1": "Le code de lot généré (texte et code-barres)",
+        "bullet3": "Date de péremption",
+        "bullet4": "Code d'inventaire interne et nom de l'article (capacité bilingue)",
+        "bullet-rx": "Nom du fournisseur reçu, numéro de bon de commande et numéro de bon de travail",
+        "bullet-bl": "Nom et numéro uniques de l'ordre de travail de mélange",
+        "bullet-ps": "Facultatif : nom et numéro uniques de l'ordre de travail d'emballage"
+      },
+      "rx": {
+        "content1": "Le module de réception de CadiTrack génère des codes de lot et imprime des étiquettes d'inventaire pour les articles reçus dès leur arrivée. Les étiquettes s'impriment sur des plaques de lot de 10,2 x 10,2 cm à partir d'une imprimante Zebra, identifiant clairement les informations pour chaque article.",
+        "content2": "CadiTrack crée un bon de travail pour chaque expédition reçue, capturant l'employé responsable, le numéro de bon de commande du fournisseur et les codes de lot, les références COA, la date de réception, etc."
+      },
+
+      "bl": {
+        "content1": "Le module de mélange de CadiTrack crée un bon de travail pour chaque nouveau travail de mélange. Le bon de travail comprend un code de lot unique pour le nouveau produit mélangé. Le personnel utilise un scanner de codes-barres pour capturer les codes d'identification des employés, les codes d'identification des équipements et les codes de lot des ingrédients utilisés dans le travail de mélange afin que CadiTrack puisse joindre tous ces codes au bon de travail de mélange. CadiTrack détermine la date « meilleur avant » en utilisant la date « meilleur avant » la plus proche des lots d'ingrédients. Les détails du bon de travail, y compris le code de lot, la date de mélange, les noms de produits, etc. peuvent être imprimés sur des étiquettes de lot ou enregistrés dans une feuille de calcul du bon de travail, directement à partir de CadiTrack. Les étiquettes de lot peuvent être imprimées sur de grandes plaques de lot de 4 \"x4\" à partir d'une imprimante Zebra, identifiant",
+        "content2": "Le personnel peut également utiliser une imprimante Dymo pour imprimer des étiquettes de lot sur des autocollants de tickets plus petits de 1 pouce x 1⁄2 pouce, ce qui est idéal pour appliquer sur des articles plus petits. Ces étiquettes indiquent la date de péremption, la date de mélange et le code de lot du mélange (texte plus code QR)",
+        "content3": "L'assistant de recettes de CadiTrack génère des fiches de recettes pour les quantités personnalisées spécifiées dans chaque bon de travail de mélange. Cela garantit que le personnel dispose toujours de mesures précises des ingrédients pour fabriquer n'importe quelle quantité d'un article mélangé. CadiTrack vous permet d'utiliser les ingrédients de votre inventaire d'articles reçus, d'autres articles mélangés et même d'articles emballés. Le personnel doit simplement scanner les codes de lot au fur et à mesure qu'ils introduisent des articles dans le processus de construction. La fonctionnalité CadiTrack Track and Trace vous permet de retracer instantanément l'origine de chaque lot d'ingrédients et de suivre le code de lot de construction du nouvel article jusqu'à ce qu'il soit expédié depuis l'installation"
+      },
+
+      "ps": {
+        "content1": "Le module d'emballage de CadiTrack crée un bon de travail pour chaque nouveau travail d'emballage. Le bon de travail génère un code de lot d'emballage unique pour le produit emballé. Le personnel utilise un lecteur de codes-barres pour saisir les codes d'identification des employés, les codes d'identification des équipements, les codes de lot d'emballage et les codes de lot d'ingrédients utilisés dans le travail d'emballage. Caditrack joint tous ces codes au nouveau bon de travail d'emballage",
+        "content2": "CadiTrack détermine la date de péremption de l'article emballé en utilisant la date de péremption la plus proche parmi les ingrédients et les lots d'emballage. Les détails du bon de travail, y compris le code de lot, la date d'emballage, les noms de produits, etc. peuvent être imprimés sur des étiquettes de lot ou enregistrés dans une feuille de calcul, directement à partir de CadiTrack. Les étiquettes de lot peuvent être imprimées sur de grandes plaques de lot de 4 \"x4\" à partir d'une imprimante Zebra, identifiant",
+        "content3": "Le personnel peut également utiliser une imprimante Dymo pour imprimer des étiquettes de lot sur des étiquettes de ticket plus petites de 1 \"x 1⁄2\", qui incluent la date de péremption, la date d'emballage et le code de lot du pack (texte plus code QR). Le code de lot d'emballage, la date d'emballage et la date de péremption peuvent également être appliqués aux articles emballés à l'aide d'imprimantes en ligne dans le cadre de la chaîne de production"
+      },
+
+      "sd": {
+        "content1": "Le module d'expédition de CadiTrack crée un bon de travail pour chaque expédition, capturant le numéro de facture de vente, l'ID de l'employé et les codes de lot de tous les articles numérisés et inclus dans l'expédition",
+        "content2": "L'assistant de bons de livraison de CadiTrack génère des bons de livraison simples ou complets, indépendamment de la facture de vente. Le bordereau d'emballage répertorie l'ensemble complet des codes de lot de produits pour les articles scannés par l'employé. Le personnel peut utiliser les bordereaux d'emballage complets CadiTrack pour saisir la ou les boîtes numérotées contenant chaque lot, le format des articles (par exemple, caisse de 6, bouteilles d'un litre, etc.) et la quantité de chaque format",
+        "content3": "CadiTrack peut identifier non seulement les lots inclus dans chaque envoi, mais peut également retracer tous les lots qui ont été utilisés pour créer l'envoi. Les clients peuvent utiliser les bordereaux d'expédition pour consulter les détails des lots qui ont été expédiés et les dates de péremption pour chaque lot. Les clients de détail ont souvent besoin de cette capacité"
+      }
+    },
+
+    "main": {
+      "rx": {
+        "content1": "Suivez et tracez les produits reçus, en enregistrant chaque article de votre facture fournisseur. CadiTrack crée des codes de lot uniques qui identifient chaque conteneur, sac ou boîte que vous recevez. Vous attribuez généralement des codes de lot à tous les matériaux qui entreront en contact avec les produits finis (par exemple, les ingrédients ou les emballages de consommation). Imprimez des étiquettes de code de lot directement à partir de CadiTrack. Le texte et les codes (codes-barres ou codes QR) sur l'étiquette peuvent être facilement lus ou scannés pour suivre et tracer chaque produit, date de fabrication, date de péremption, etc."
+      },
+
+      "bl": {
+        "content1": "Suivez et tracez les nouveaux articles que vous créez en mélangeant ou en reconditionnant des produits dans votre inventaire afin de pouvoir retracer tous les ingrédients. CadiTrack crée des codes de lot uniques pour identifier chaque lot de nouveaux produits que vous créez. Imprimez des étiquettes de code de lot directement à partir de CadiTrack. Le texte et les codes (codes-barres ou codes QR) sur l'étiquette peuvent être facilement lus ou scannés pour suivre et tracer chaque produit, date de fabrication, date de péremption, identifiant de l'employé, équipement utilisé, etc."
+      },
+
+      "ps": {
+        "content1": "Suivez et tracez les articles emballés que vous créez pour vos clients. CadiTrack crée des codes de lot qui identifient de manière unique chaque lot d'articles emballés dans un travail d'emballage. Imprimez des étiquettes de code de lot directement à partir de CadiTrack. Le texte et les codes (codes-barres ou codes QR) sur l'étiquette peuvent être facilement lus ou scannés pour suivre et tracer chaque produit, date de fabrication, date de péremption, identifiant de l'employé, équipement utilisé, etc. Les étiquettes peuvent être configurées pour inclure des logos, coordonnées et autres informations destinées aux clients. Les clients peuvent référencer les codes de lot afin que vous puissiez retracer instantanément les origines d'un produit fini et identifier le personnel, l'équipement et les ingrédients utilisés pendant le traitement."
+      },
+
+      "sd": {
+        "content1": "Scannez les codes de lot pour les articles spécifiques expédiés à chaque client. CadiTrack peut générer un bon de livraison incluant les codes de lot dans l'envoi. En cas d'incident de rappel, CadiTrack vous permet d'identifier rapidement chaque facture de vente remplie qui comprend un lot rappelé spécifique."
+      }
+    },
+
+    "key_features": {
+      "title1": "Suivre et tracer",
+      "content11": "Tracez le contenu, les origines, le contact du personnel et les coordonnées de l'équipement pour chaque article et ses ingrédients - le tout à partir d'un simple code-barres, code QR ou code de lot alpha",
+      "content12": "Suivez les produits et leurs ingrédients de la réception à la transformation, en passant par la vente et la distribution",
+      "title2": "Facile à utiliser",
+      "content21": "Application Web - aucun matériel complexe requis, juste un navigateur",
+      "content22": "Aucune compétence informatique requise pour mettre en œuvre, exploiter et entretenir",
+      "title3": "Imprimer et numériser",
+      "content31": "Imprimez des étiquettes de suivi de lot directement sur des imprimantes de Zebra, Dymo et autres",
+      "content32": "Identification instantanée des lots à l'aide de lecteurs de codes-barres 1D ou 2D, ou de texte lisible",
+      "title4": "Autre",
+      "content41": "Prise en charge bilingue de l'interface utilisateur et de l'étiquetage",
+      "content42": "Compatible avec la plupart des systèmes de comptabilité et d'inventaire"
+    }
+  },
+
+  "our_story": {
+    "content1": "Il y a plusieurs années, ma famille a déménagé de Vancouver à Cortes Island à la recherche d'un rythme de vie plus lent. Nous avons rapidement rencontré Ryan Harvey, qui nous a aidés à décharger notre camion de déménagement. J'ai appris que Ryan et sa femme Lovena possédaient Gathering Place Trading (« GPT »), qui importe des thés, des épices et du sel de mer biologiques de producteurs éthiques du monde entier. En m'installant dans la communauté de l'île, j'ai commencé à aider les propriétaires d'entreprises locales dans leurs processus financiers et opérationnels.",
+    "content2": "Lovena m'a demandé d'aider GPT à mettre en place un processus de traçabilité des ingrédients sur papier pour satisfaire aux réglementations en matière de sécurité alimentaire. Le système manuel répondait initialement à leurs besoins, mais comme l'entreprise se développait rapidement, ils avaient besoin d'une automatisation des procédures de suivi pour permettre au personnel limité de se concentrer sur les opérations quotidiennes. J'ai proposé d'aider GPT à se doter d'un système de traçabilité numérique et nous avons vite découvert qu'il n'existait pas de solutions adaptées. Soit la fonctionnalité de traçabilité était trop limitée, soit elle était intégrée dans une suite complexe et coûteuse d'applications qui n'étaient pas adaptées aux besoins de GPT. Le système de comptabilité et d'inventaire de GPT fonctionnait bien - ils avaient juste besoin d'une fonctionnalité de traçabilité de base pour satisfaire aux réglementations de sécurité alimentaire (HACCP - Hazard Analysis Critical Control Point) et aux exigences de certification biologique. J'ai proposé de développer un système autonome, ce qui a été la genèse de Caditrack !",
+    "content3": "Les principales exigences de Caditrack étaient de fournir une traçabilité des produits de bout en bout, y compris le suivi des lots, les historiques de contact du personnel et des équipements, la compatibilité avec les systèmes de comptabilité et d'inventaire et, surtout, une interface de navigateur simple pour les utilisateurs ayant une expertise technique limitée. GPT a mis en place Caditrack au printemps 2021. Même les technophobes parmi le personnel de GPT ont rapidement adopté le système. Caditrack a été développé en tant qu'application logicielle en tant que service basée sur le cloud, ce qui signifie qu'il ne nécessite aucun matériel ou logiciel, autre qu'un navigateur Web. Il peut servir de système autonome ou être intégré à des systèmes de comptabilité ou d'inventaire. PwC (Pricewaterhouse Coopers, une société de conseil internationale) a examiné et approuvé Caditrack pour le programme d'adoption de la traçabilité de la Colombie-Britannique - en fait, Caditrack est maintenant un fournisseur approuvé.",
+    "content4": "J'ai eu l'occasion de rencontrer de nombreux entrepreneurs de l'industrie alimentaire. Je suis inspiré par leur passion pour la croissance de leurs entreprises et j'apprécie leur besoin de solutions simples. Grâce à sa solution de traçabilité facilement intégrée, Caditrack atténue les risques associés aux rappels de produits potentiellement dévastateurs, aide les entreprises à obtenir et à maintenir la conformité aux normes de sécurité alimentaire et autres, et fournit des processus efficaces pour permettre à ces entreprises de prospérer."
+  },
+
+  "copy_primary": {
+    "one": "CadiTrack assure le suivi et la traçabilité des produits, la recherche des contacts du personnel et de l'équipement et bien plus encore. Intégrez les fonctionnalités de suivi et de traçabilité, avec un étiquetage et une numérisation QR et codes-barres transparents. Améliorez la conformité avec HACCP/HARCP, la certification biologique et les exigences des clients en matière de responsabilité des produits et de rappels. La gestion des bons de travail de CadiTrack fournit un accès en temps réel aux activités de réception, de traitement, d'emballage et d'expédition. CadiTrack est une solution Web autonome qui fonctionnera avec presque tous les systèmes de comptabilité et d'inventaire existants."
+  },
+
+  "copy": {
+    "one": "Suivre les produits entrants tout au long du traitement, puis jusqu'à la facture de vente et les articles vendus individuellement",
+    "two": "Entièrement intégré pour imprimer des étiquettes de suivi de lot directement sur des imprimantes industrielles et de bureau de Zebra, Dymo et autres",
+    "three": "Tracez le contenu, les origines, le contact personnel et le contact matériel de chaque article vendu et de ses ingrédients"
+  },
+
+  "features": {
+    "end_to_end_workflow": {
+      "title": "Flux de travail complet",
+      "content_1": "Gérez le cycle de vie complet du lot avec un système d'ordre de travail facile à utiliser La fonction de commentaire d'ordre de travail permet au personnel de production et de supervision d'examiner et d'échanger des informations, en temps réel, sur chaque étape de la production",
+      "content_2": "Examinez instantanément les lots, l'équipement et le personnel qui ont été déployés à n'importe quelle étape de traitement",
+      "content_3": "Examinez instantanément qui a fait quoi dans le cycle de vie du traitement des lots"
+    },
+
+    "recipe_assistant": {
+      "title": "Assistante Recette",
+      "content_1": "Stockez et mettez à disposition des recettes. Fournissez au personnel de production un accès instantané aux quantités de produits requises avant que de nouveaux lots ne soient créés ou que des lots existants ne soient emballés",
+      "content_2": "Spécifiez les rendements requis pour générer des quantités d'ingrédients précises"
+    },
+
+    "packing_slip_assistant": {
+      "title": "Assistant Bordereau De Livraison",
+      "content_1": "Lors de la numérisation des produits pour l'expédition, créez des bordereaux d'emballage simples ou détaillés pour fournir des informations supplémentaires non disponibles sur la facture de vente",
+      "content_2": "Codes de lot et dates de péremption pour tous les produits Numéros ou codes de boîte Format de chaque produit expédié, par ex. boîte, sac, étui"
+    },
+
+    "barcode_data_entry": {
+      "title": "Saisie De Données De Code-barres",
+      "content_1": "La technologie intégrée de code-barres et QR permet aux utilisateurs de saisir les données du personnel, de l'équipement et du code de lot à l'aide de scanners 1D ou 2D standard moins de saisie de données, plus d'efficacité"
+    },
+
+    "data_management": {
+      "title": "Gestion De Données",
+      "content_1": "Importation et exportation par lots de données de configuration dans des fichiers texte, csv et MS Excel",
+      "content_2": "Exportez les écrans de mélange, d'emballage et d'expédition dans des ensembles de données dénormalisés dans des fichiers MS Excel à des fins d'analyse et de création de rapports",
+      "content_3": "Éditeurs en ligne pour gérer les enregistrements de configuration pour les articles d'inventaire, les recettes, l'équipement et les utilisateurs",
+      "content_4": "Impression en ligne d'étiquettes pour les badges code-barres d'identité des équipements et du personnel"
+    }
+  },
+
+  "privacy": {
+    "heading": "Conditions de confidentialité pour l'utilisation du site Web",
+    "message": "This document lays out the privacy conditions as [french version] ..."
+  },
+
+  "terms-and-conditions": {
+    "heading": "Termes et conditions d'utilisation du site Web",
+    "message": "This document lays out the terms and conditions as [french version] ..."
+  },
+
+  "phases": {
+    "rx": "Recevoir",
+    "bl": "Mélange",
+    "ps": "Emballer & Sceller",
+    "sd": "Ventes et Expédition"
+  },
+
+  "glossary": {
+    "simple": {
+      "date": "Date",
+      "contact": "Contact",
+      "submit": "Soumettre",
+      "password": "Passe",
+      "language": "Langue",
+      "privacy": "Intimité",
+      "terms": "Termes",
+      "legal": "Juridique",
+      "copyright": "D'Auteur",
+      "login": "Nom du compte"
+    },
+
+    "compound": {
+      "process_phases": "Étapes du processus",
+      "packing_slip": "Bon de livraison",
+      "ask_questions": "Poser des questions",
+      "your_email": "Votre e-mail",
+      "see_more": "Voir plus"
+    },
+
+    "phrases": {
+      "we_would_love_to_hear_from_you": "Nous aimerions avoir de vos nouvelles",
+      "stay_in_touch": "Reste en contact",
+      "terms_and_conditions": "Terms and conditions",
+      "please_dont_hesitate_to_reach": "N'hésitez pas à nous contacter, nous répondrons immédiatement à vos demandes",
+      "our_team_is_available": "Notre équipe est disponible pour répondre à vos questions",
+      "all_rights_reserved_for_questions": "Tous les droits sont réservés. Pour toute question, écrivez-nous à",
+      "we_are_here_to_help": "Nous sommes ici pour aider. Entrer en contact!",
+      "got_any_questions_need_help": "Vous avez des questions ? Besoin d'aide?",
+      "we_will_let_you_know_about": "Nous vous informerons de nos nouvelles fonctionnalités dès leur sortie",
+      "keep_me_updated": "Tenez moi au courant",
+      "take_your_quality_control_to": "Faites passer votre contrôle qualité au niveau supérieur",
+      "lot_tracking_made_easy": "Le suivi des lots simplifié",
+      "your_end_to_end_traceability": "Découvrez les avantages"
+    }
+  }
+}

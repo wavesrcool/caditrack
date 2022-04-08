@@ -1,0 +1,260 @@
+{
+  "app": {
+    "root": "CadiTrack",
+    "paths": {
+      "index": {
+        "root": "Home"
+      },
+      "home": {
+        "root": "Home"
+      }
+    }
+  },
+
+  "navigation": {
+    "routes": {
+      "home": {
+        "name": "Home"
+      },
+
+      "how_it_works": {
+        "name": "How It Works"
+      },
+
+      "our_story": {
+        "name": "Our Story"
+      },
+
+      "testimonials": {
+        "name": "Testimonials"
+      },
+
+      "contact_us": {
+        "name": "Contact Us"
+      },
+
+      "use_cases": {
+        "name": "Use Cases"
+      },
+
+      "privacy": {
+        "name": "Privacy"
+      },
+
+      "terms": {
+        "name": "Terms"
+      },
+
+      "license": {
+        "name": "License"
+      },
+
+      "pricing": {
+        "name": "Pricing"
+      },
+
+      "login": {
+        "name": "Login"
+      }
+    }
+  },
+
+  "how_it_works": {
+    "heading1": "CadiTrack streamlines your processing with an intuitive workflow",
+
+    "pages": {
+      "bullets": {
+        "bullet1": "The generated Lot Code (text and barcode)",
+        "bullet3": "Best before date",
+        "bullet4": "Internal inventory code and item name (bilingual capability)",
+        "bullet-rx": "Received vendor name, purchase order number, and work order number",
+        "bullet-bl": "Unique Blending Work Order name and number",
+        "bullet-ps": "Optional: unique Packing Work Order name and number"
+      },
+      "rx": {
+        "content1": "CadiTrack’s Receiving module generates Lot Codes and prints inventory labels for received items immediately on their arrival. Labels print on 4”x4” Lot Plates from a Zebra printer, clearly identifying information for each item",
+        "content2": "CadiTrack creates a Work Order for each shipment received, capturing the employee in charge, the supplier’s purchase order number and lot codes, COA references, receiving date, etc"
+      },
+
+      "bl": {
+        "content1": "CadiTrack’s Blending Module creates a work order for each new blending job. The work order includes a unique Lot Code for the new blended product. Staff use a barcode scanner to capture employee ID codes, equipment ID codes, and ingredient Lot Codes used in the blending job so that CadiTrack can attach all these codes to the blending Work Order. CadiTrack determines the “best before” date by using the earliest “best before” date from the ingredient lots. Work Order details, including the Lot Code, blending date, product names, etc. can be printed on Lot Labels, or saved in a Work Order spreadsheet, directly from CadiTrack. Lot Labels can be printed on large 4”x4” Lot Plates from a Zebra printer, identifying",
+        "content2": "Staff can also use a Dymo printer to print Lot Labels on smaller 1”x 1⁄2” ticket stickers - ideal for applying to smaller items. These labels show the “best before” date, the blending date, and the blend’s Lot Code (text plus QR code)",
+        "content3": "CadiTrack’s Recipe Assistant generates recipe sheets for custom quantities specified in each blending Work Order. This ensures that staff always have precise ingredient measurements to build any quantity of a blended item. CadiTrack allows you to use ingredients from your inventory of Received items, other Blended items, and even Packaged items Staff need to simply scan the Lot Codes as they introduced items in the build process. CadiTrack Track and Trace functionality allows you to instantly trace the origin of each ingredient Lot, and tracks the building Lot Code of the new item until it ships from the facility"
+      },
+
+      "ps": {
+        "content1": "CadiTrack’s Packing module creates a Work Order for each new packing job. The Work Order generates a unique packing Lot Code for the packaged product. Staff use a barcode scanner to capture employee ID codes, equipment ID codes, packaging Lot Codes and ingredient Lot Codes used in the Packing job. Caditrack attaches all these codes to the new packing Work Order",
+        "content2": "CadiTrack determines the Packaged item’s “best before” date using the earliest “best before” date from the ingredients and packaging lots. Work Order details, including Lot Code, packing date, product names, etc. can be printed on Lot Labels, or saved in a worksheet, directly from CadiTrack. Lot Labels can be printed on large 4”x4” Lot Plates from a Zebra printer, identifying",
+        "content3": "Staff can also use a Dymo printer to print Lot Labels on smaller 1”x 1⁄2” ticket stickers, which include the “best before” date, the packing date, and the Pack’s Lot Code (text plus QR code). The packing Lot Code, packing date and “best before” date can also be applied to packaged items using inline printers as part of the production line"
+      },
+
+      "sd": {
+        "content1": "CadiTrack’s Shipping Module creates a Work Order for each shipment, capturing the Sales Invoice number, employee ID, and the Lot Codes of all items scanned and included in the shipment",
+        "content2": "CadiTrack’s Packing Slip Assistant generates simple or complete packing slips, independently of the Sales Invoice. The packing slip lists the complete set of product Lot Codes for items scanned by the employee. Staff can use the CadiTrack complete packing slips to capture the numbered box(es) carrying each Lot, the format of the items (e.g. Case of 6, Quart Bottles, etc.), and the quantity of each format",
+        "content3": "CadiTrack can identify not only the Lots included in each shipment, but can also trace all Lots that were used to create the shipment. Customers can use the Packing Slips to review details of the Lots that were shipped and the “best before” dates for each Lot. Retail customers often require this capability"
+      }
+    },
+
+    "main": {
+      "rx": {
+        "content1": "Track and trace products received, recording each item from your supplier invoice. CadiTrack creates unique Lot Codes that identify every container, bag, or box that you receive. You typically would assign Lot Codes to all materials that will come into contact with finished products (e.g., ingredients or consumer packaging). Print Lot Code labels directly from CadiTrack. Text and codes (barcodes or QR codes) on the label can be easily read or scanned to track and trace each product, manufacturing date, “best before” date, etc"
+      },
+
+      "bl": {
+        "content1": "Track and trace new product items you create from blending or repacking products in your inventory so that you can trace all ingredients. CadiTrack creates unique Lot Codes to identify each lot of new products you create. Print Lot Code labels directly from CadiTrack. Text and codes (barcodes or QR codes) on the label can be easily read or scanned to track and trace each product, manufacturing date, “best before” date, employee ID, equipment used, etc. "
+      },
+
+      "ps": {
+        "content1": "Track and trace packaged items you create for your customers. CadiTrack creates Lot Codes that uniquely identify every lot of packaged items in a packaging job. Print Lot Code labels directly from CadiTrack. Text and codes (barcodes or QR codes) on the label can be easily read or scanned to track and trace each product, manufacturing date, “best before” date, employee ID, equipment used, etc. Labels can be configured to include logos, contact details, and other customer-facing information. Customers can reference Lot Codes so that you can instantly trace the origins of a finished product and identify the staff, equipment and ingredient used during processing."
+      },
+
+      "sd": {
+        "content1": "Scan the lot codes for the specific items shipped to each customer. CadiTrack can generate a packing slip including the lot codes in the shipment. In the event of a recall incident, CadiTrack allow you to quickly identify every sales invoice fulfilled that includes a specific recalled lot."
+      }
+    },
+
+    "key_features": {
+      "title1": "Track and trace",
+      "content11": "Trace the content, origins, staff contact, and equipment contact details for each item and its ingredients - all from a simple barcode, QR code, or alpha lot code",
+      "content12": "Track products and their ingredients from receiving, to processing, and on to sales and distribution",
+      "title2": "Easy to use",
+      "content21": "Web-based application - no complex hardware required, just a browser",
+      "content22": "No IT skills required to implement, operate, and maintain",
+      "title3": "Print and scan",
+      "content31": "Print lot tracking labels directly to printers from Zebra, Dymo, and others",
+      "content32": "Instant lot identification using 1D or 2D barcode scanners, or readable text",
+      "title4": "Other",
+      "content41": "Bilingual support for user interface and labeling",
+      "content42": "Compatible with most accounting and inventory systems"
+    }
+  },
+
+  "our_story": {
+    "content1": "Several years ago, my family moved from Vancouver to Cortes Island seeking a slower pace of life. We soon met Ryan Harvey, who helped us unload our moving truck. I learned that Ryan and his wife Lovena owned Gathering Place Trading (“GPT”), which imports organic teas, spices and sea salt from ethical producers around the world. As I settled into the island’s community, I began helping local business owners with their financial and operational processes.",
+    "content2": "Lovena asked me to help GPT implement a paper-based ingredient tracing process to satisfy food safety regulations. The manual system met their needs initially, but as the business was growing rapidly, they needed automation of tracking procedures to allow the limited staff to focus on day-to-day operations. I offered to help GPT procure a digital traceability system and we soon discovered there were no suitable solutions available. Either the traceability functionality was too limited, or else it was embedded within a complex and costly suite of applications that were not relevant to GPT’s needs. GPT’s accounting and inventory system worked well - they just needed basic traceability functionality to satisfy food safety regulations (HACCP - Hazard Analysis Critical Control Point) and organic certification requirements. I offered to develop a stand-alone system, which was the genesis of Caditrack!",
+    "content3": "Caditrack’s core requirements were to provide end-to-end product traceability, including lot tracking, staff and equipment contact histories, compatibility with accounting and inventory systems and, most importantly, a simple browser interface for users with limited technical expertise. GPT implemented Caditrack in spring 2021. Even the technophobes among GPT’s staff quickly took to the system. Caditrack was developed as a cloud-based, software as a service application, meaning it does not require any hardware or software, other than a web browser. It can serve as a stand-alone system or be integrated with accounting or inventory systems. PwC (Pricewaterhouse Coopers, an international consultancy) reviewed and approved Caditrack for British Columbia’s Traceability Adoption program - in fact, Caditrack is now an approved vendor.",
+    "content4": "I have had opportunities to meet with many entrepreneurs in the food industry. I am inspired by their passion for growing their businesses and I appreciate their need for simple solutions. With its easily integrated traceability solution, Caditrack mitigates risks associated with potentially devastating product recalls, helps businesses obtain and maintain compliance with food safety and other standards, and provides process efficiencies to enable these businesses to flourish."
+  },
+
+  "phases": {
+    "rx": "Receiving",
+    "bl": "Blending",
+    "ps": "Pack & Seal",
+    "sd": "Sales & Dispatch"
+  },
+
+  "copy": {
+    "one": "Track incoming product through processing, and on to sales invoice and individual sold items",
+    "two": "Fully integrated to print Lot Tracking labels directly to industrial and desktop printers from Zebra, Dymo, and others",
+    "three": "Trace the content, origins, staff contact and equipment contact of each sold item and its ingredients"
+  },
+
+  "testimonials": {
+    "gathering_place": {
+      "ben_1": "CadiTrack has allowed us to scale up and ensure compliance with ever tightening traceability requirements that grocery stores and manufacturers are demanding.",
+      "ben_2": "CadiTrack is intuitive and very easy to get used to. Our staff required minimal training and were quickly up to speed and working more efficiently.",
+      "lovena_1": "CadiTrack is perfect for small and medium businesses and has been so easy to implement and get up and running. CadiTrack has been a game changer for our business!",
+      "lovena_2": "We feel well assured that we have complete and accurate traceability and meet all levels of food safety standards."
+    }
+  },
+
+  "copy_primary": {
+    "one": "CadiTrack delivers product track and tracing, staff and equipment contact tracing and much more. Integrate Track and Trace capabilities, with seamless QR and Barcode labelling & scanning. Enhance compliance with HACCP/HARCP, organic certification, and customer requirements for product accountability and recalls. CadiTrack’s Work Order management provides real-time access to receiving, processing, packing and shipping activities. CadiTrack is a stand-alone, web based solution that will work with almost any legacy accounting and inventory systems"
+  },
+
+  "features": {
+    "end_to_end_workflow": {
+      "title": "End to End Workflow",
+      "content_1": "Manage complete Lot lifecycle with easy-to-use Work Order system Work Order Comment feature allows production and supervisor staff to review and exchange information, real-time, about every step of production",
+      "content_2": "Instantly review which Lots, equipment and staff were deployed in any processing step",
+      "content_3": "Instantly review who did what when in the Lot processing lifecycle"
+    },
+
+    "recipe_assistant": {
+      "title": "Recipe Assistant",
+      "content_1": "Store and make available recipes. Provide production staff instant access to required product quantities before new Lots are created or existing Lots are packed",
+      "content_2": "Specify required yields to generate accurate ingredient quantities"
+    },
+
+    "packing_slip_assistant": {
+      "title": "Packing Slip Assistant",
+      "content_1": "While scanning products for shipping, create simple, or detailed, packing slips to provide additional information not available on the Sales Invoice",
+      "content_2": "Lot Codes and Best Before dates for all products Box numbers or codes Format of each product shipped, e.g. box, sack, case"
+    },
+
+    "barcode_data_entry": {
+      "title": "Barcode Data Entry",
+      "content_1": "Integrated barcode & QR technology allows users to enter staff, equipment and Lot code data using standard 1D or 2D scanners less data entry , more efficiency"
+    },
+
+    "data_management": {
+      "title": "Data Management",
+      "content_1": "Batch import and export of configuration data in text, csv, and MS Excel files",
+      "content_2": "export Blending, Packing and Shipping screens into denormalized data sets in MS Excel files for analysis and reporting",
+      "content_3": "Online editors to manage configuration records for Inventory Items, Recipes, Equipment, and Users",
+      "content_4": "Online label printing for equipment and staff identity barcode badges"
+    }
+  },
+
+  "privacy": {
+    "heading": "Privacy Policy of the Website",
+    "message": "This document lays out the privacy conditions as ..."
+  },
+
+  "terms-and-conditions": {
+    "heading": "Terms and Conditions of the Website",
+    "message": "This document lays out the terms and conditions as ..."
+  },
+
+  "glossary": {
+    "simple": {
+      "date": "Date",
+      "contact": "Contact",
+      "submit": "Submit",
+      "password": "Password",
+      "language": "Language",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "legal": "Legal",
+      "previous": "Previous",
+      "next": "Next",
+      "overview": "Overview",
+      "month": "Month",
+      "month_pl": "Months",
+      "send": "Send",
+      "copyright": "Copyright",
+      "login": "Login",
+      "step": "Step",
+      "step_pl": "Steps",
+      "stage": "Stage",
+      "stage_pl": "Stages",
+      "read": "Read",
+      "more": "More"
+    },
+
+    "compound": {
+      "process_phases": "Process Phases",
+      "packing_slip": "Packing Slip",
+      "ask_questions": "Ask questions",
+      "your_email": "Your email",
+      "read_more": "Read More",
+      "see_more": "See More"
+    },
+
+    "phrases": {
+      "we_would_love_to_hear_from_you": "We would love to hear from you",
+      "terms_and_conditions": "Terms and conditions",
+      "please_dont_hesitate_to_reach": "Please don't hesitate to reach out to us, we will respond to your inquiries right away",
+      "our_team_is_available": "Our team is available to answer your questions",
+      "stay_in_touch": "Stay in touch",
+      "all_rights_reserved_for_questions": "All rights reserved. Get in touch with our team for any questions",
+      "we_are_here_to_help": "We are here to help. Get in touch!",
+      "got_any_questions_need_help": "Got any questions? Need help?",
+      "we_will_let_you_know_about": "We will let you know about our new features when they are released",
+      "keep_me_updated": "Keep me updated",
+      "take_your_quality_control_to": "Take your quality control to the next level",
+      "lot_tracking_made_easy": "Lot tracking made easy",
+      "your_end_to_end_traceability": "Your end-to-end traceability solution"
+    }
+  }
+}
